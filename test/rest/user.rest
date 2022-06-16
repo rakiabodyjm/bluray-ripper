@@ -1,0 +1,13 @@
+GET http://localhost:1001/
+
+###
+GET http://localhost:1001/1653197128784
+
+###
+POST http://localhost:1001/
+Content-Type: application/json
+
+{
+    "first_name":"Reynard", 
+    "last_name":"Visperas"
+}
